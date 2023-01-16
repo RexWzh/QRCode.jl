@@ -9,4 +9,7 @@ makedocs(
 
 deploydocs(
     repo = "github.com/JuliaImages/QRCoders.jl.git",
+    devurl = "master",
+    versions = ["v1.#", "stable" => "v^", "dev" =>  "master"],
+    push_preview = true,
 )
