@@ -8,8 +8,8 @@ makedocs(
     )
 
 deploydocs(
-    repo = "github.com/JuliaImages/QRCoders.jl.git",
-    devurl = "master",
-    versions = ["v1.#", "stable" => "v^", "dev" =>  "master"],
+    repo = "github.com/RexWzh/QRCoders.jl.git",
+    devurl = "dev",
+    versions = ["v1.#", "stable" => "v^", "dev" =>  "dev"],
     push_preview = true,
 )
